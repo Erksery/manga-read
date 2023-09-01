@@ -1,0 +1,42 @@
+.MangaCreate{
+
+}
+
+.CreateForm-container{
+    padding: 30px;
+    border-radius: 7px;
+    background-color: #2f2f2f;
+}
+
+.CreateForm-container form{
+    display: flex;
+    flex-direction: column;
+}
+
+.CreateForm-container form input{
+    margin: 10px;
+    height: 50px;
+}
+.CreateForm-container form h3{
+    margin-top: 0;
+}
+
+.File-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(70px * 2.5);
+    height: calc(100px * 2.5);
+    border: dashed 2px gray;
+    border-radius: 7px;
+
+    cursor: pointer;
+}
+
+.File-container img{
+    border-radius: 7px;
+}
+
+.File-container label{
+    text-align: center;
+}

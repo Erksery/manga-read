@@ -1,0 +1,10 @@
+.ChapterPage{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+.ChapterPage .Reader-view{
+    display: flex;
+    flex-direction: column;
+}

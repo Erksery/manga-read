@@ -1,0 +1,35 @@
+.BackgroundClose.entering{
+    opacity: 1;
+}
+
+.BackgroundClose.entered{
+    opacity: 1;
+}
+
+.BackgroundClose.exiting{
+    visibility: hidden;
+    opacity: 0;
+}
+
+.BackgroundClose.exited{
+    visibility: hidden;
+    opacity: 0;
+}
+
+.SearchModal.entering{
+    opacity: 1;
+}
+
+.SearchModal.entered{
+    opacity: 1;
+}
+
+.SearchModal.exiting{
+    visibility: hidden;
+    opacity: 0;
+}
+
+.SearchModal.exited{
+    visibility: hidden;
+    opacity: 0;
+}

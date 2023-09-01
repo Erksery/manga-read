@@ -1,0 +1,49 @@
+.MangaCatalog-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.MangaCatalog-container .catalog{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto;
+    justify-content: center;
+    width: 70%;
+    margin-right: 20px;
+    border-radius: 7px;
+}
+
+.MangaCatalog-container .catalog .Manga{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 0 5px 5px 0;
+}
+.MangaCatalog-container .catalog .Manga img{
+    width: calc(70px * 2.4);
+    height: calc(100px * 2.4);
+    border-radius: 7px;
+}
+
+.MangaCatalog-container .catalog .Manga div{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: 5px 0 5px 0;
+    font-size: 15px;
+
+}
+
+.MangaCatalog-container .catalog .Manga div span{
+    font-size: 14px;
+    color: gray;
+}
+
+.MangaCatalog-container .filter{
+    display: flex;
+    flex: auto;
+    padding: 30px;
+    border-radius: 7px;
+    background-color: #2f2f2f;
+}

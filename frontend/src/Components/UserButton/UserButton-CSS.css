@@ -1,0 +1,56 @@
+.UserButton-container{
+    position: relative;
+}
+
+.Menu{
+    position: absolute;
+    right: 0%;
+    top: 100%;
+    padding: 8px;
+    margin-right: 3px;
+    border-radius: 7px;
+    color: #bebebe;
+    background-color: #3b3b3b;
+    transition: 0.3s;
+}
+
+.Menu .Menu-button{
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    width: 210px;
+    font-weight: normal;
+}
+.Menu .Menu-button svg{
+    margin-right: 4px;
+}
+
+.Menu .Menu-button:hover{
+    border-radius: 7px;
+    color: #bebebe;
+    background-color: #464646;
+}
+
+.Menu.entering{
+    transform: scale(100%);
+    opacity: 1;
+}
+
+.Menu.entered{
+    transform: scale(100%);
+    opacity: 1;
+}
+
+.Menu.exiting{
+    top: 130%;
+    /*transform: scale(90%);*/
+    visibility: hidden;
+    opacity: 0;
+}
+
+.Menu.exited{
+    top: 130%;
+    /*transform: scale(90%);*/
+    visibility: hidden;
+    opacity: 0;
+}

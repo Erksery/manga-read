@@ -1,0 +1,41 @@
+.Chapters-container .Chapter-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px;
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 7px;
+    background-color: #3b3b3b;
+}
+
+.Chapters-container .Chapter-item:hover{
+    background-color: #424242;
+}
+
+.Chapters-container .Chapter-item svg{
+    margin-right: 10px;
+}
+
+.Chapters-container .Chapter-name{
+    display: flex;
+    align-items: center;
+}
+
+.Chapters-container .Chapter-info{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    color: #bebebe;
+}
+
+.Chapters-container .Chapter-info div{
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.Chapters-container .Chapter-info svg{
+    margin-right: 5px;
+}

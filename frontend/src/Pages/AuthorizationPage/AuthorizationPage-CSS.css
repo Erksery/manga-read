@@ -1,0 +1,50 @@
+.AuthorizationPage-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.AuthorizationPage-container h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+}
+
+.AuthorizationPage-container .Auth-form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 300px;
+    padding: 20px 30px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 7px;
+    background-color: rgba(59, 59, 59, 0.49);
+}
+
+.AuthorizationPage-container .Auth-form .AuthInput-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    height: 100%;
+}
+
+.AuthorizationPage-container .Auth-form .AuthInput-container p{
+    margin-left: 0;
+}
+
+.AuthorizationPage-container .Auth-form .AuthInput-container input{
+    height: 40px;
+    margin: 10px 0;
+}
+
+.AuthorizationPage-container .Auth-form .AuthInput-container p a{
+    color: #646cff;
+    font-weight: normal;
+}
+
+.AuthorizationPage-container .Auth-form .AuthInput-container button{
+    margin-top: auto;
+}

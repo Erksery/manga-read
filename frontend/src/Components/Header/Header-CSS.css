@@ -1,0 +1,96 @@
+
+.Header{
+    position: fixed;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 60px;
+    align-self: stretch;
+    width: 100%;
+    background-color: #2f2f2f;
+    transition: 0.3s;
+}
+
+.Header .Logo-container{
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+.Header .Logo-container:hover{
+    color: gray;
+}
+
+.Header .Logo-container h2{
+    font-size: 26px;
+    margin-left: 7px;
+}
+.Header .Search-container{
+    display: flex;
+    justify-items: center;
+    align-items: stretch;
+    padding: 10px;
+}
+
+.Header .Search-container .Search-input{
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    width: 80%;
+    border-radius: 7px;
+    color: gray;
+    background-color: #3b3b3b;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+.Header .Option-container{
+    display: flex;
+    flex-grow: 2;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 10px;
+
+}
+
+.Header .Option-container .link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Header .Option-container button{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    max-height: 40px;
+    margin: 3px;
+    color: #bebebe;
+    background-color: #2f2f2f;
+    font-size: 15px;
+
+}
+.Header .Option-container button:hover{
+    background-color: #3b3b3b;
+}
+
+.Header .Option-container button svg{
+    margin-right: 3px;
+}
+
+
+.Header.entering{
+    opacity: 1;
+}
+
+.Header.entered{
+    opacity: 1;
+}
+
+.Header.exiting{
+    visibility: hidden;
+    opacity: 0;
+}
+
+.Header.exited{
+    visibility: hidden;
+    opacity: 0;
+}

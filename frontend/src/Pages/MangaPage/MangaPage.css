@@ -1,0 +1,99 @@
+.MangaPage{
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+}
+
+.Manga-sidebar{
+    width: calc(70px * 4);
+    margin-right: 30px;
+}
+.Manga-sidebar img{
+    border-radius: 7px;
+}
+
+.Manga-sidebar button{
+    width: 100%;
+    margin-top: 10px;
+    border: none;
+    background-color: rgba(116, 123, 255, 0.68);
+    transition: 0.2s;
+}
+
+.Manga-sidebar button:hover{
+    background-color: rgba(116, 123, 255, 0.49);
+}
+
+.Manga-sidebar .AddList-button{
+    background-color: #2f2f2f;
+}
+
+.Manga-sidebar .AddList-button:hover{
+    background-color: rgba(47, 47, 47, 0.72);
+}
+
+.Manga-sidebar .Info-card{
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 7px;
+    background-color: #2f2f2f;
+}
+
+.Manga-sidebar .Info-card label{
+    margin: 0;
+    font-weight: normal;
+    color: gray;
+}
+
+.Manga-sidebar .Info-card p{
+    margin: 0 0 10px 0;
+    font-weight: normal;
+}
+
+
+.Manga-content{
+    width: 100%;
+}
+
+.Manga-caption h2{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 5px 0;
+    font-weight: 500;
+}
+
+.Manga-caption h2 svg{
+    margin-right: 2px;
+}
+.Manga-caption p{
+    margin: 0 0 15px 0;
+    color: rgba(211, 211, 211, 0.66);
+}
+
+.Manga-caption .Rate-info{
+    display: flex;
+    align-items: center;
+    color: #bebebe;
+    font-size: 25px;
+}
+
+.Manga-info-container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 7px;
+    background-color: #2f2f2f;
+}
+
+.Manga-info-container hr{
+    width: 100%;
+    border-radius: 2px;
+    border: solid 1px rgba(128, 128, 128, 0.47);
+}
+
+.Tabs-container a{
+    margin-right: 15px;
+    font-size: 17px;
+    font-weight: 500;
+}
+

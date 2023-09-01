@@ -1,0 +1,50 @@
+.Tags-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+.Tags-container .Tag{
+    padding: 4px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: solid 1px rgba(94, 94, 94, 0.65);
+    color: rgba(213, 213, 213, 0.63);
+    background-color: rgba(114, 114, 114, 0.17);
+    transition: 0.2s;
+}
+
+.Tags-container .Tag:hover{
+    cursor: pointer;
+    color: white;
+    background-color: rgba(114, 114, 114, 0.29);
+}
+
+.Translators-container h3{
+    color: #bebebe;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.Translators-container .Translators-list-container{
+    display: flex;
+    flex-direction: row;
+
+}
+.Translators-container .Translators-list-container .Translators-item{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    padding-right: 10px;
+    height: 30px;
+    border-radius: 7px;
+    background-color: #3b3b3b;
+}
+
+.Translators-container .Translators-list-container .Translators-item img{
+    margin-right: 5px;
+    width: 30px;
+    height: 30px;
+    background-color: #646cff;
+}
