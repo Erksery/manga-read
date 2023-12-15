@@ -5,12 +5,18 @@
 
 .MangaCatalog-container .catalog{
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(7, 1fr);
     grid-template-rows: auto;
     justify-content: center;
     width: 70%;
     margin-right: 20px;
     border-radius: 7px;
+}
+
+@media screen and (max-width: 1400px){
+    .MangaCatalog-container .catalog{
+        grid-template-columns: repeat(5, 1fr);
+    }
 }
 
 .MangaCatalog-container .catalog .Manga{

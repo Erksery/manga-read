@@ -35,6 +35,7 @@ app.get("/image/:id", (req, res) => {
   const userId = req.params.id;
   fs.readFile(`uploads/${userId}.jpg`, (err, data) => {
     if (err) {
+      console.log(err)
       res.status(500).send("Error reading the image file");
     } else {
       res.setHeader("Content-Type", "image/jpg");
@@ -69,7 +70,6 @@ app.get("/manga/:id/chapters", urlencodedParser, (req, res) => {
 
 app.post("/uploadImage", (req, res) => {
   let fileData = req.file;
-  console.log(fileData);
   const fileExt = path.extname(fileData.originalname);
   const fileName = path.basename(fileData.originalname, fileExt);
   const newFileName = fileName + ".jpg";

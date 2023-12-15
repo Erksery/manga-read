@@ -2,7 +2,6 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   font-weight: 400;
 
-  color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #1f1f1f;
 
@@ -55,6 +54,7 @@ button {
   font-family: inherit;
   background-color: #1a1a1a;
   cursor: pointer;
+  color: #bebebe;
   transition: 0.2s;
 }
 
@@ -65,6 +65,7 @@ input{
   font-size: 15px;
   transition: 0.2s;
   color: gray;
+  background-color: #3b3b3b;
 }
 
 input[type="file"]{
@@ -104,18 +105,6 @@ p{
   font-weight: normal;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-}
 
 ::-webkit-scrollbar{
   width: 9px;

@@ -12,13 +12,21 @@ function GetChapters({ id }) {
   }
 
   if (data.length === 0) {
-    return <h2>Главы пока не завезли(</h2>;
+    return (
+      <>
+        <Link to={`/manga/${id}/createChapters`}>
+          Добавить главу
+          <h2>Главы пока не завезли(</h2>
+        </Link>
+      </>
+    );
   }
-  console.log("Главы", data);
 
   return (
     <div>
-      <Link to={`/manga/${id}/createChapters`}>Добавить главу</Link>
+      <Link to={`/manga/${id}/createChapters`}>
+        <h1>Добавить главу</h1>
+      </Link>
       {data.map((item) => (
         <div className="Chapters-container" key={item.idChapter}>
           <div className="Chapter-item">
